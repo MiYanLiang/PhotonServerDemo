@@ -1,0 +1,13 @@
+E:\PJ_C#\PhotonServer\MyGameServer\bin\Debug\MyGameServer.dll
+E:\PJ_C#\PhotonServer\MyGameServer\bin\Debug\MyGameServer.pdb
+E:\PJ_C#\PhotonServer\MyGameServer\obj\Debug\MyGameServer.dll
+E:\PJ_C#\PhotonServer\MyGameServer\obj\Debug\MyGameServer.pdb
+E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer\bin\MyGameServer.dll
+E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer\bin\MyGameServer.pdb
+E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer\bin\log4net.config
+E:\Unity-pj\PhotonServerDemo\Server\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer\bin\log4net.config
+E:\Unity-pj\PhotonServerDemo\Server\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer\bin\MyGameServer.dll
+E:\Unity-pj\PhotonServerDemo\Server\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer\bin\MyGameServer.pdb
+E:\Unity-pj\PhotonServerDemo\Server\PhotonServerCSharp\MyGameServer\obj\Debug\MyGameServer.csprojResolveAssemblyReference.cache
+E:\Unity-pj\PhotonServerDemo\Server\PhotonServerCSharp\MyGameServer\obj\Debug\MyGameServer.dll
+E:\Unity-pj\PhotonServerDemo\Server\PhotonServerCSharp\MyGameServer\obj\Debug\MyGameServer.pdb
