@@ -1,0 +1,12 @@
+9772: 14:41:58.026 - ---
+9772: 14:41:58.026 - Service: "Photon Socket Server" starting
+9772: 14:41:58.037 - Config File: E:\Unity-pj\PhotonServerDemo\Server\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\bin_Win64\PhotonServer.config
+9772: 14:41:58.037 - Will produce at most: 10 crash dumps
+9772: 14:41:58.037 - Service shutting down
+9772: 14:41:58.037 - Service shut down complete
+15844: 15:04:29.128 - ---
+15844: 15:04:29.128 - Service: "Photon Socket Server" starting
+15844: 15:04:29.129 - Config File: E:\Unity-pj\PhotonServerDemo\Server\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\bin_Win64\PhotonServer.config
+15844: 15:04:29.130 - Will produce at most: 10 crash dumps
+15844: 15:04:29.130 - Service shutting down
+15844: 15:04:29.131 - Service shut down complete

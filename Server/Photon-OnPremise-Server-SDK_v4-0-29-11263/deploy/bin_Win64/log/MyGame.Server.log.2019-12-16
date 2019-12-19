@@ -1,0 +1,9 @@
+2019-12-16 21:11:49,035 [1] INFO  MyGameServer.MyGameServer - 服务器开启初始化完成
+2019-12-16 21:11:49,044 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=MyGame1; AppPath=E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer, Type=MyGameServer.MyGameServer 
+2019-12-16 21:11:53,722 [14] INFO  MyGameServer.MyGameServer - 有一个客户端链接了服务器
+2019-12-16 21:11:58,997 [13] INFO  MyGameServer.MyGameServer - 收到了一个客户端的请求Type1
+2019-12-16 21:11:58,998 [13] INFO  MyGameServer.MyGameServer - 得到客户端传递数据1：0 2：这是客户端发送的第二个数据
+2019-12-16 21:12:10,776 [10] INFO  MyGameServer.MyGameServer - 有一个客户端断开了连接
+2019-12-16 21:12:16,566 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=MyGame1
+2019-12-16 21:12:16,567 [1] INFO  MyGameServer.MyGameServer - 服务器应用关闭
+2019-12-16 21:12:16,567 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=MyGame1

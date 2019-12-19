@@ -1,0 +1,501 @@
+2019-12-16 15:34:10,202 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Initialize: ApplicationName = 'DefaultDomain', DomainID = '1'
+2019-12-16 15:34:10,217 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AppDomains with unhandled exceptions are usually not unloaded and restarted.
+2019-12-16 15:34:10,218 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Getting license information:
+2019-12-16 15:34:10,700 [ 1] INFO  PhotonHostRuntime.PhotonLicensing - LICENSE: Type:Standard; Plan:Free; Expiration: never; floating license: yes; max connections: 100; valid IPs: any; status:Licensed
+2019-12-16 15:34:13,372 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - CreateAppDomain: name = 'Master' , assemblyName = 'Photon.LoadBalancing'
+2019-12-16 15:34:13,373 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   ApplicationBase = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy'
+2019-12-16 15:34:13,373 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   PrivateBinPath = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\LoadBalancing\Master\bin;bin_Win64;Shared;'
+2019-12-16 15:34:13,373 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   ConfigurationFile = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\LoadBalancing\Master\bin\Photon.LoadBalancing.dll.config'
+2019-12-16 15:34:13,373 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   CachePath = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\LoadBalancing\Master\bin\Cache'
+2019-12-16 15:34:13,425 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   ApplicationPath = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\LoadBalancing\Master'
+2019-12-16 15:34:13,425 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   BinaryPath = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\LoadBalancing\Master\bin'
+2019-12-16 15:34:13,426 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   ApplicationRootPath = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy'
+2019-12-16 15:34:13,426 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   UnmanagedLogPath = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\bin_Win64\log'
+2019-12-16 15:34:13,433 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: Photon.LoadBalancing, Version=4.0.28.11221, Culture=neutral, PublicKeyToken=null from file:///E:/photon/Photon-OnPremise-Server-SDK_v4-0-29-11263/deploy/LoadBalancing/Master/bin/Photon.LoadBalancing.DLL
+2019-12-16 15:34:13,434 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Photon SDK:4.0.28.11245
+2019-12-16 15:34:13,442 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: Photon.SocketServer, Version=4.0.28.11245, Culture=neutral, PublicKeyToken=48c2fa3b6988090e from file:///E:/photon/Photon-OnPremise-Server-SDK_v4-0-29-11263/deploy/LoadBalancing/Master/bin/Photon.SocketServer.DLL
+2019-12-16 15:34:13,448 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: ExitGamesLibs, Version=1.0.4.0, Culture=neutral, PublicKeyToken=eac0edd9746a4aa0 from file:///E:/photon/Photon-OnPremise-Server-SDK_v4-0-29-11263/deploy/LoadBalancing/Master/bin/ExitGamesLibs.DLL
+2019-12-16 15:34:13,475 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Starting: name = 'Master', assemblyName = 'Photon.LoadBalancing', typeName = 'Photon.LoadBalancing.MasterServer.MasterApplication'
+2019-12-16 15:34:13,476 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - CreateAppDomain: name = 'Game' , assemblyName = 'Photon.LoadBalancing'
+2019-12-16 15:34:13,476 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   ApplicationBase = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy'
+2019-12-16 15:34:13,476 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   PrivateBinPath = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\LoadBalancing\GameServer\bin;bin_Win64;Shared;'
+2019-12-16 15:34:13,476 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   ConfigurationFile = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\LoadBalancing\GameServer\bin\Photon.LoadBalancing.dll.config'
+2019-12-16 15:34:13,476 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   CachePath = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\LoadBalancing\GameServer\bin\Cache'
+2019-12-16 15:34:13,566 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   ApplicationPath = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\LoadBalancing\GameServer'
+2019-12-16 15:34:13,567 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   BinaryPath = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\LoadBalancing\GameServer\bin'
+2019-12-16 15:34:13,567 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   ApplicationRootPath = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy'
+2019-12-16 15:34:13,567 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   UnmanagedLogPath = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\bin_Win64\log'
+2019-12-16 15:34:13,574 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: Photon.LoadBalancing, Version=4.0.28.11221, Culture=neutral, PublicKeyToken=null from file:///E:/photon/Photon-OnPremise-Server-SDK_v4-0-29-11263/deploy/LoadBalancing/GameServer/bin/Photon.LoadBalancing.DLL
+2019-12-16 15:34:13,575 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Photon SDK:4.0.28.11245
+2019-12-16 15:34:13,583 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: Photon.SocketServer, Version=4.0.28.11245, Culture=neutral, PublicKeyToken=48c2fa3b6988090e from file:///E:/photon/Photon-OnPremise-Server-SDK_v4-0-29-11263/deploy/LoadBalancing/GameServer/bin/Photon.SocketServer.DLL
+2019-12-16 15:34:13,588 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: Photon.Common, Version=4.0.28.11221, Culture=neutral, PublicKeyToken=null from file:///E:/photon/Photon-OnPremise-Server-SDK_v4-0-29-11263/deploy/LoadBalancing/GameServer/bin/Photon.Common.DLL
+2019-12-16 15:34:13,595 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: ExitGamesLibs, Version=1.0.4.0, Culture=neutral, PublicKeyToken=eac0edd9746a4aa0 from file:///E:/photon/Photon-OnPremise-Server-SDK_v4-0-29-11263/deploy/LoadBalancing/GameServer/bin/ExitGamesLibs.DLL
+2019-12-16 15:34:13,601 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: PhotonHive, Version=4.0.28.11221, Culture=neutral, PublicKeyToken=null from file:///E:/photon/Photon-OnPremise-Server-SDK_v4-0-29-11263/deploy/LoadBalancing/GameServer/bin/PhotonHive.DLL
+2019-12-16 15:34:13,629 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Starting: name = 'Game', assemblyName = 'Photon.LoadBalancing', typeName = 'Photon.LoadBalancing.GameServer.GameApplication'
+2019-12-16 15:34:13,630 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - CreateAppDomain: name = 'CounterPublisher' , assemblyName = 'CounterPublisher'
+2019-12-16 15:34:13,630 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   ApplicationBase = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy'
+2019-12-16 15:34:13,630 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   PrivateBinPath = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\CounterPublisher\bin;bin_Win64;Shared;'
+2019-12-16 15:34:13,630 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   ConfigurationFile = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\CounterPublisher\bin\CounterPublisher.dll.config'
+2019-12-16 15:34:13,630 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   CachePath = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\CounterPublisher\bin\Cache'
+2019-12-16 15:34:13,678 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   ApplicationPath = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\CounterPublisher'
+2019-12-16 15:34:13,678 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   BinaryPath = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\CounterPublisher\bin'
+2019-12-16 15:34:13,678 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   ApplicationRootPath = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy'
+2019-12-16 15:34:13,678 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   UnmanagedLogPath = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\bin_Win64\log'
+2019-12-16 15:34:13,685 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: CounterPublisher, Version=4.0.28.11221, Culture=neutral, PublicKeyToken=null from file:///E:/photon/Photon-OnPremise-Server-SDK_v4-0-29-11263/deploy/CounterPublisher/bin/CounterPublisher.DLL
+2019-12-16 15:34:13,685 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Photon SDK:4.0.28.11245
+2019-12-16 15:34:13,693 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: Photon.SocketServer, Version=4.0.28.11245, Culture=neutral, PublicKeyToken=48c2fa3b6988090e from file:///E:/photon/Photon-OnPremise-Server-SDK_v4-0-29-11263/deploy/CounterPublisher/bin/Photon.SocketServer.DLL
+2019-12-16 15:34:13,710 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: ExitGamesLibs, Version=1.0.4.0, Culture=neutral, PublicKeyToken=eac0edd9746a4aa0 from file:///E:/photon/Photon-OnPremise-Server-SDK_v4-0-29-11263/deploy/CounterPublisher/bin/ExitGamesLibs.DLL
+2019-12-16 15:34:13,713 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Starting: name = 'CounterPublisher', assemblyName = 'CounterPublisher', typeName = 'Photon.CounterPublisher.Application'
+2019-12-16 15:34:13,742 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - PhotonRunning: ApplicationName = 'CounterPublisher', DomainId='4' -- calling Application.Setup
+2019-12-16 15:34:13,761 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: ExitGames.Logging.Log4Net, Version=1.0.4.0, Culture=neutral, PublicKeyToken=eac0edd9746a4aa0 from file:///E:/photon/Photon-OnPremise-Server-SDK_v4-0-29-11263/deploy/CounterPublisher/bin/ExitGames.Logging.Log4Net.DLL
+2019-12-16 15:34:15,093 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - PhotonRunning: ApplicationName = 'Game', DomainId='3' -- calling Application.Setup
+2019-12-16 15:34:15,100 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: ExitGames.Logging.Log4Net, Version=1.0.4.0, Culture=neutral, PublicKeyToken=eac0edd9746a4aa0 from file:///E:/photon/Photon-OnPremise-Server-SDK_v4-0-29-11263/deploy/LoadBalancing/GameServer/bin/ExitGames.Logging.Log4Net.DLL
+2019-12-16 15:34:15,977 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: System.resources, Version=4.0.0.0, Culture=zh-Hans, PublicKeyToken=b77a5c561934e089 from file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.resources/v4.0_4.0.0.0_zh-Hans_b77a5c561934e089/System.resources.dll
+2019-12-16 15:34:15,978 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - ResourceResolveHandler: ApplicationName = 'Game', DomainId='3', args.Name='System.zh-Hans.resources'
+2019-12-16 15:34:16,928 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: PhotonHivePlugin, Version=1.0.15.11060, Culture=neutral, PublicKeyToken=null from file:///E:/photon/Photon-OnPremise-Server-SDK_v4-0-29-11263/deploy/LoadBalancing/GameServer/bin/PhotonHivePlugin.DLL
+2019-12-16 15:34:16,953 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - PhotonRunning: ApplicationName = 'Master', DomainId='2' -- calling Application.Setup
+2019-12-16 15:34:16,969 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: Photon.Common, Version=4.0.28.11221, Culture=neutral, PublicKeyToken=null from file:///E:/photon/Photon-OnPremise-Server-SDK_v4-0-29-11263/deploy/LoadBalancing/Master/bin/Photon.Common.DLL
+2019-12-16 15:34:16,977 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: ExitGames.Logging.Log4Net, Version=1.0.4.0, Culture=neutral, PublicKeyToken=eac0edd9746a4aa0 from file:///E:/photon/Photon-OnPremise-Server-SDK_v4-0-29-11263/deploy/LoadBalancing/Master/bin/ExitGames.Logging.Log4Net.DLL
+2019-12-16 15:34:17,906 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: System.resources, Version=4.0.0.0, Culture=zh-Hans, PublicKeyToken=b77a5c561934e089 from file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.resources/v4.0_4.0.0.0_zh-Hans_b77a5c561934e089/System.resources.dll
+2019-12-16 15:34:17,906 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - ResourceResolveHandler: ApplicationName = 'Master', DomainId='2', args.Name='System.zh-Hans.resources'
+2019-12-16 15:34:18,019 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: PhotonHive, Version=4.0.28.11221, Culture=neutral, PublicKeyToken=null from file:///E:/photon/Photon-OnPremise-Server-SDK_v4-0-29-11263/deploy/LoadBalancing/Master/bin/PhotonHive.DLL
+2019-12-16 15:34:18,043 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: ServiceStack.Redis, Version=3.9.71.0, Culture=neutral, PublicKeyToken=null from file:///E:/photon/Photon-OnPremise-Server-SDK_v4-0-29-11263/deploy/LoadBalancing/Master/bin/ServiceStack.Redis.DLL
+2019-12-16 15:34:18,047 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: ServiceStack.Interfaces, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null from file:///E:/photon/Photon-OnPremise-Server-SDK_v4-0-29-11263/deploy/LoadBalancing/Master/bin/ServiceStack.Interfaces.DLL
+2019-12-16 15:34:18,060 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a from file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_64/System.Web/v4.0_4.0.0.0__b03f5f7f11d50a3a/System.Web.dll
+2019-12-16 15:34:18,090 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - PhotonRunning: ApplicationName = 'DefaultDomain', DomainId='1'
+2019-12-16 15:34:18,108 [14] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: PhotonHivePlugin, Version=1.0.15.11060, Culture=neutral, PublicKeyToken=null from file:///E:/photon/Photon-OnPremise-Server-SDK_v4-0-29-11263/deploy/LoadBalancing/Master/bin/PhotonHivePlugin.DLL
+2019-12-16 15:35:08,532 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - RequestStop: ApplicationName = 'CounterPublisher', DomainId='4' -- calling Application.OnStopRequested()
+2019-12-16 15:35:08,534 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - RequestStop: ApplicationName = 'Game', DomainId='3' -- calling Application.OnStopRequested()
+2019-12-16 15:35:08,538 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - RequestStop: ApplicationName = 'Master', DomainId='2' -- calling Application.OnStopRequested()
+2019-12-16 15:35:08,540 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - RequestStop: ApplicationName = 'DefaultDomain', DomainId='1'
+2019-12-16 15:35:08,541 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Stop: ApplicationName = 'CounterPublisher', DomainId='4' -- calling Application.TearDown()
+2019-12-16 15:35:08,544 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Stop: ApplicationName = 'Game', DomainId='3' -- calling Application.TearDown()
+2019-12-16 15:35:08,545 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Stop: ApplicationName = 'Master', DomainId='2' -- calling Application.TearDown()
+2019-12-16 15:35:16,477 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Initialize: ApplicationName = 'DefaultDomain', DomainID = '1'
+2019-12-16 15:35:16,488 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AppDomains with unhandled exceptions are usually not unloaded and restarted.
+2019-12-16 15:35:16,490 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Getting license information:
+2019-12-16 15:35:16,770 [ 1] INFO  PhotonHostRuntime.PhotonLicensing - LICENSE: Type:Standard; Plan:Free; Expiration: never; floating license: yes; max connections: 100; valid IPs: any; status:Licensed
+2019-12-16 15:35:18,320 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - CreateAppDomain: name = 'MMoDemo' , assemblyName = 'Photon.MmoDemo.Server'
+2019-12-16 15:35:18,321 [ 1] ERROR PhotonHostRuntime.PhotonDomainManager - CreateDomain
+System.Exception: Can't find Photon.MmoDemo.Server.dll in  or E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MmoDemo\bin
+   在 PhotonHostRuntime.PhotonDomainManager.PhotonDefaultAppDomainBehavior.CreateAppDomain(String name, String assemblyName, String baseDirectoryRaw, String applicationRootDirectoryRaw, String applicationDirectoryRaw, String sharedDirectoryRaw, String applicationSharedDirectoryRaw, Boolean enableShadowCopy, Boolean createPerInstanceShadowCopyCaches, String instanceName)
+   在 PhotonHostRuntime.PhotonDomainManager.CreateAppDomain(String name, String assemblyName, String baseDirectoryRaw, String applicationRootDirectoryRaw, String applicationDirectoryRaw, String sharedDirectoryRaw, String applicationSharedDirectoryRaw, Boolean enableShadowCopy, Boolean createPerInstanceShadowCopyCaches, String instanceName)
+2019-12-16 15:35:18,341 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - RequestStop: ApplicationName = 'DefaultDomain', DomainId='1'
+2019-12-16 15:35:37,747 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Initialize: ApplicationName = 'DefaultDomain', DomainID = '1'
+2019-12-16 15:35:37,758 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AppDomains with unhandled exceptions are usually not unloaded and restarted.
+2019-12-16 15:35:37,759 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Getting license information:
+2019-12-16 15:35:38,032 [ 1] INFO  PhotonHostRuntime.PhotonLicensing - LICENSE: Type:Standard; Plan:Free; Expiration: never; floating license: yes; max connections: 100; valid IPs: any; status:Licensed
+2019-12-16 15:35:39,339 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - CreateAppDomain: name = 'MMoDemo' , assemblyName = 'Photon.MmoDemo.Server'
+2019-12-16 15:35:39,339 [ 1] ERROR PhotonHostRuntime.PhotonDomainManager - CreateDomain
+System.Exception: Can't find Photon.MmoDemo.Server.dll in  or E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MmoDemo\bin
+   在 PhotonHostRuntime.PhotonDomainManager.PhotonDefaultAppDomainBehavior.CreateAppDomain(String name, String assemblyName, String baseDirectoryRaw, String applicationRootDirectoryRaw, String applicationDirectoryRaw, String sharedDirectoryRaw, String applicationSharedDirectoryRaw, Boolean enableShadowCopy, Boolean createPerInstanceShadowCopyCaches, String instanceName)
+   在 PhotonHostRuntime.PhotonDomainManager.CreateAppDomain(String name, String assemblyName, String baseDirectoryRaw, String applicationRootDirectoryRaw, String applicationDirectoryRaw, String sharedDirectoryRaw, String applicationSharedDirectoryRaw, Boolean enableShadowCopy, Boolean createPerInstanceShadowCopyCaches, String instanceName)
+2019-12-16 15:35:39,342 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - RequestStop: ApplicationName = 'DefaultDomain', DomainId='1'
+2019-12-16 15:35:47,454 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Initialize: ApplicationName = 'DefaultDomain', DomainID = '1'
+2019-12-16 15:35:47,465 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AppDomains with unhandled exceptions are usually not unloaded and restarted.
+2019-12-16 15:35:47,466 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Getting license information:
+2019-12-16 15:35:47,747 [ 1] INFO  PhotonHostRuntime.PhotonLicensing - LICENSE: Type:Standard; Plan:Free; Expiration: never; floating license: yes; max connections: 100; valid IPs: any; status:Licensed
+2019-12-16 15:35:48,920 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - CreateAppDomain: name = 'Master' , assemblyName = 'Photon.LoadBalancing'
+2019-12-16 15:35:48,921 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   ApplicationBase = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy'
+2019-12-16 15:35:48,921 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   PrivateBinPath = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\LoadBalancing\Master\bin;bin_Win64;Shared;'
+2019-12-16 15:35:48,921 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   ConfigurationFile = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\LoadBalancing\Master\bin\Photon.LoadBalancing.dll.config'
+2019-12-16 15:35:48,921 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   CachePath = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\LoadBalancing\Master\bin\Cache'
+2019-12-16 15:35:48,956 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   ApplicationPath = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\LoadBalancing\Master'
+2019-12-16 15:35:48,956 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   BinaryPath = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\LoadBalancing\Master\bin'
+2019-12-16 15:35:48,957 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   ApplicationRootPath = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy'
+2019-12-16 15:35:48,957 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   UnmanagedLogPath = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\bin_Win64\log'
+2019-12-16 15:35:48,963 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: Photon.LoadBalancing, Version=4.0.28.11221, Culture=neutral, PublicKeyToken=null from file:///E:/photon/Photon-OnPremise-Server-SDK_v4-0-29-11263/deploy/LoadBalancing/Master/bin/Photon.LoadBalancing.DLL
+2019-12-16 15:35:48,964 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Photon SDK:4.0.28.11245
+2019-12-16 15:35:48,969 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: Photon.SocketServer, Version=4.0.28.11245, Culture=neutral, PublicKeyToken=48c2fa3b6988090e from file:///E:/photon/Photon-OnPremise-Server-SDK_v4-0-29-11263/deploy/LoadBalancing/Master/bin/Photon.SocketServer.DLL
+2019-12-16 15:35:48,974 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: ExitGamesLibs, Version=1.0.4.0, Culture=neutral, PublicKeyToken=eac0edd9746a4aa0 from file:///E:/photon/Photon-OnPremise-Server-SDK_v4-0-29-11263/deploy/LoadBalancing/Master/bin/ExitGamesLibs.DLL
+2019-12-16 15:35:48,986 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Starting: name = 'Master', assemblyName = 'Photon.LoadBalancing', typeName = 'Photon.LoadBalancing.MasterServer.MasterApplication'
+2019-12-16 15:35:48,986 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - CreateAppDomain: name = 'Game' , assemblyName = 'Photon.LoadBalancing'
+2019-12-16 15:35:48,986 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   ApplicationBase = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy'
+2019-12-16 15:35:48,987 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   PrivateBinPath = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\LoadBalancing\GameServer\bin;bin_Win64;Shared;'
+2019-12-16 15:35:48,987 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   ConfigurationFile = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\LoadBalancing\GameServer\bin\Photon.LoadBalancing.dll.config'
+2019-12-16 15:35:48,987 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   CachePath = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\LoadBalancing\GameServer\bin\Cache'
+2019-12-16 15:35:49,021 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   ApplicationPath = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\LoadBalancing\GameServer'
+2019-12-16 15:35:49,021 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   BinaryPath = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\LoadBalancing\GameServer\bin'
+2019-12-16 15:35:49,022 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   ApplicationRootPath = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy'
+2019-12-16 15:35:49,022 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   UnmanagedLogPath = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\bin_Win64\log'
+2019-12-16 15:35:49,028 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: Photon.LoadBalancing, Version=4.0.28.11221, Culture=neutral, PublicKeyToken=null from file:///E:/photon/Photon-OnPremise-Server-SDK_v4-0-29-11263/deploy/LoadBalancing/GameServer/bin/Photon.LoadBalancing.DLL
+2019-12-16 15:35:49,029 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Photon SDK:4.0.28.11245
+2019-12-16 15:35:49,034 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: Photon.SocketServer, Version=4.0.28.11245, Culture=neutral, PublicKeyToken=48c2fa3b6988090e from file:///E:/photon/Photon-OnPremise-Server-SDK_v4-0-29-11263/deploy/LoadBalancing/GameServer/bin/Photon.SocketServer.DLL
+2019-12-16 15:35:49,037 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: Photon.Common, Version=4.0.28.11221, Culture=neutral, PublicKeyToken=null from file:///E:/photon/Photon-OnPremise-Server-SDK_v4-0-29-11263/deploy/LoadBalancing/GameServer/bin/Photon.Common.DLL
+2019-12-16 15:35:49,041 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: ExitGamesLibs, Version=1.0.4.0, Culture=neutral, PublicKeyToken=eac0edd9746a4aa0 from file:///E:/photon/Photon-OnPremise-Server-SDK_v4-0-29-11263/deploy/LoadBalancing/GameServer/bin/ExitGamesLibs.DLL
+2019-12-16 15:35:49,046 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: PhotonHive, Version=4.0.28.11221, Culture=neutral, PublicKeyToken=null from file:///E:/photon/Photon-OnPremise-Server-SDK_v4-0-29-11263/deploy/LoadBalancing/GameServer/bin/PhotonHive.DLL
+2019-12-16 15:35:49,066 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Starting: name = 'Game', assemblyName = 'Photon.LoadBalancing', typeName = 'Photon.LoadBalancing.GameServer.GameApplication'
+2019-12-16 15:35:49,067 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - CreateAppDomain: name = 'CounterPublisher' , assemblyName = 'CounterPublisher'
+2019-12-16 15:35:49,067 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   ApplicationBase = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy'
+2019-12-16 15:35:49,067 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   PrivateBinPath = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\CounterPublisher\bin;bin_Win64;Shared;'
+2019-12-16 15:35:49,067 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   ConfigurationFile = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\CounterPublisher\bin\CounterPublisher.dll.config'
+2019-12-16 15:35:49,067 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   CachePath = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\CounterPublisher\bin\Cache'
+2019-12-16 15:35:49,101 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   ApplicationPath = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\CounterPublisher'
+2019-12-16 15:35:49,101 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   BinaryPath = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\CounterPublisher\bin'
+2019-12-16 15:35:49,101 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   ApplicationRootPath = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy'
+2019-12-16 15:35:49,101 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   UnmanagedLogPath = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\bin_Win64\log'
+2019-12-16 15:35:49,107 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: CounterPublisher, Version=4.0.28.11221, Culture=neutral, PublicKeyToken=null from file:///E:/photon/Photon-OnPremise-Server-SDK_v4-0-29-11263/deploy/CounterPublisher/bin/CounterPublisher.DLL
+2019-12-16 15:35:49,107 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Photon SDK:4.0.28.11245
+2019-12-16 15:35:49,112 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: Photon.SocketServer, Version=4.0.28.11245, Culture=neutral, PublicKeyToken=48c2fa3b6988090e from file:///E:/photon/Photon-OnPremise-Server-SDK_v4-0-29-11263/deploy/CounterPublisher/bin/Photon.SocketServer.DLL
+2019-12-16 15:35:49,117 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: ExitGamesLibs, Version=1.0.4.0, Culture=neutral, PublicKeyToken=eac0edd9746a4aa0 from file:///E:/photon/Photon-OnPremise-Server-SDK_v4-0-29-11263/deploy/CounterPublisher/bin/ExitGamesLibs.DLL
+2019-12-16 15:35:49,119 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Starting: name = 'CounterPublisher', assemblyName = 'CounterPublisher', typeName = 'Photon.CounterPublisher.Application'
+2019-12-16 15:35:49,146 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - PhotonRunning: ApplicationName = 'CounterPublisher', DomainId='4' -- calling Application.Setup
+2019-12-16 15:35:49,150 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: ExitGames.Logging.Log4Net, Version=1.0.4.0, Culture=neutral, PublicKeyToken=eac0edd9746a4aa0 from file:///E:/photon/Photon-OnPremise-Server-SDK_v4-0-29-11263/deploy/CounterPublisher/bin/ExitGames.Logging.Log4Net.DLL
+2019-12-16 15:35:50,149 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - PhotonRunning: ApplicationName = 'Game', DomainId='3' -- calling Application.Setup
+2019-12-16 15:35:50,155 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: ExitGames.Logging.Log4Net, Version=1.0.4.0, Culture=neutral, PublicKeyToken=eac0edd9746a4aa0 from file:///E:/photon/Photon-OnPremise-Server-SDK_v4-0-29-11263/deploy/LoadBalancing/GameServer/bin/ExitGames.Logging.Log4Net.DLL
+2019-12-16 15:35:51,050 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: PhotonHivePlugin, Version=1.0.15.11060, Culture=neutral, PublicKeyToken=null from file:///E:/photon/Photon-OnPremise-Server-SDK_v4-0-29-11263/deploy/LoadBalancing/GameServer/bin/PhotonHivePlugin.DLL
+2019-12-16 15:35:51,073 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - PhotonRunning: ApplicationName = 'Master', DomainId='2' -- calling Application.Setup
+2019-12-16 15:35:51,076 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: Photon.Common, Version=4.0.28.11221, Culture=neutral, PublicKeyToken=null from file:///E:/photon/Photon-OnPremise-Server-SDK_v4-0-29-11263/deploy/LoadBalancing/Master/bin/Photon.Common.DLL
+2019-12-16 15:35:51,080 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: ExitGames.Logging.Log4Net, Version=1.0.4.0, Culture=neutral, PublicKeyToken=eac0edd9746a4aa0 from file:///E:/photon/Photon-OnPremise-Server-SDK_v4-0-29-11263/deploy/LoadBalancing/Master/bin/ExitGames.Logging.Log4Net.DLL
+2019-12-16 15:35:51,404 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: PhotonHive, Version=4.0.28.11221, Culture=neutral, PublicKeyToken=null from file:///E:/photon/Photon-OnPremise-Server-SDK_v4-0-29-11263/deploy/LoadBalancing/Master/bin/PhotonHive.DLL
+2019-12-16 15:35:51,424 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: ServiceStack.Redis, Version=3.9.71.0, Culture=neutral, PublicKeyToken=null from file:///E:/photon/Photon-OnPremise-Server-SDK_v4-0-29-11263/deploy/LoadBalancing/Master/bin/ServiceStack.Redis.DLL
+2019-12-16 15:35:51,427 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: ServiceStack.Interfaces, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null from file:///E:/photon/Photon-OnPremise-Server-SDK_v4-0-29-11263/deploy/LoadBalancing/Master/bin/ServiceStack.Interfaces.DLL
+2019-12-16 15:35:51,439 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a from file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_64/System.Web/v4.0_4.0.0.0__b03f5f7f11d50a3a/System.Web.dll
+2019-12-16 15:35:51,466 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - PhotonRunning: ApplicationName = 'DefaultDomain', DomainId='1'
+2019-12-16 15:35:51,482 [10] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: PhotonHivePlugin, Version=1.0.15.11060, Culture=neutral, PublicKeyToken=null from file:///E:/photon/Photon-OnPremise-Server-SDK_v4-0-29-11263/deploy/LoadBalancing/Master/bin/PhotonHivePlugin.DLL
+2019-12-16 15:36:38,419 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - RequestStop: ApplicationName = 'CounterPublisher', DomainId='4' -- calling Application.OnStopRequested()
+2019-12-16 15:36:38,420 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - RequestStop: ApplicationName = 'Game', DomainId='3' -- calling Application.OnStopRequested()
+2019-12-16 15:36:38,423 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - RequestStop: ApplicationName = 'Master', DomainId='2' -- calling Application.OnStopRequested()
+2019-12-16 15:36:38,425 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - RequestStop: ApplicationName = 'DefaultDomain', DomainId='1'
+2019-12-16 15:36:38,426 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Stop: ApplicationName = 'CounterPublisher', DomainId='4' -- calling Application.TearDown()
+2019-12-16 15:36:38,427 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Stop: ApplicationName = 'Game', DomainId='3' -- calling Application.TearDown()
+2019-12-16 15:36:38,429 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Stop: ApplicationName = 'Master', DomainId='2' -- calling Application.TearDown()
+2019-12-16 15:37:27,217 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Initialize: ApplicationName = 'DefaultDomain', DomainID = '1'
+2019-12-16 15:37:27,228 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AppDomains with unhandled exceptions are usually not unloaded and restarted.
+2019-12-16 15:37:27,229 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Getting license information:
+2019-12-16 15:37:27,507 [ 1] INFO  PhotonHostRuntime.PhotonLicensing - LICENSE: Type:Standard; Plan:Free; Expiration: never; floating license: yes; max connections: 100; valid IPs: any; status:Licensed
+2019-12-16 15:37:28,709 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - CreateAppDomain: name = 'MMoDemo' , assemblyName = 'Photon.MmoDemo.Server'
+2019-12-16 15:37:28,710 [ 1] ERROR PhotonHostRuntime.PhotonDomainManager - CreateDomain
+System.Exception: Can't find Photon.MmoDemo.Server.dll in  or E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MmoDemo\bin
+   在 PhotonHostRuntime.PhotonDomainManager.PhotonDefaultAppDomainBehavior.CreateAppDomain(String name, String assemblyName, String baseDirectoryRaw, String applicationRootDirectoryRaw, String applicationDirectoryRaw, String sharedDirectoryRaw, String applicationSharedDirectoryRaw, Boolean enableShadowCopy, Boolean createPerInstanceShadowCopyCaches, String instanceName)
+   在 PhotonHostRuntime.PhotonDomainManager.CreateAppDomain(String name, String assemblyName, String baseDirectoryRaw, String applicationRootDirectoryRaw, String applicationDirectoryRaw, String sharedDirectoryRaw, String applicationSharedDirectoryRaw, Boolean enableShadowCopy, Boolean createPerInstanceShadowCopyCaches, String instanceName)
+2019-12-16 15:37:28,716 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - RequestStop: ApplicationName = 'DefaultDomain', DomainId='1'
+2019-12-16 16:51:41,804 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Initialize: ApplicationName = 'DefaultDomain', DomainID = '1'
+2019-12-16 16:51:41,815 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AppDomains with unhandled exceptions are usually not unloaded and restarted.
+2019-12-16 16:51:41,817 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Getting license information:
+2019-12-16 16:51:42,097 [ 1] INFO  PhotonHostRuntime.PhotonLicensing - LICENSE: Type:Standard; Plan:Free; Expiration: never; floating license: yes; max connections: 100; valid IPs: any; status:Licensed
+2019-12-16 16:51:43,273 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - CreateAppDomain: name = 'MyGame1' , assemblyName = 'MyGameServer'
+2019-12-16 16:51:43,273 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   ApplicationBase = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy'
+2019-12-16 16:51:43,273 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   PrivateBinPath = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer\bin;bin_Win64;Shared;'
+2019-12-16 16:51:43,273 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   ConfigurationFile = ''
+2019-12-16 16:51:43,273 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   CachePath = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer\bin\Cache'
+2019-12-16 16:51:43,319 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   ApplicationPath = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer'
+2019-12-16 16:51:43,319 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   BinaryPath = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer\bin'
+2019-12-16 16:51:43,319 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   ApplicationRootPath = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy'
+2019-12-16 16:51:43,319 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   UnmanagedLogPath = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\bin_Win64\log'
+2019-12-16 16:51:43,325 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: MyGameServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null from file:///E:/photon/Photon-OnPremise-Server-SDK_v4-0-29-11263/deploy/MyGameServer/bin/MyGameServer.DLL
+2019-12-16 16:51:43,325 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Photon SDK:4.0.28.11245
+2019-12-16 16:51:43,332 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: Photon.SocketServer, Version=4.0.28.11245, Culture=neutral, PublicKeyToken=48c2fa3b6988090e from file:///E:/photon/Photon-OnPremise-Server-SDK_v4-0-29-11263/deploy/MyGameServer/bin/Photon.SocketServer.DLL
+2019-12-16 16:51:43,337 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: ExitGamesLibs, Version=1.0.4.0, Culture=neutral, PublicKeyToken=eac0edd9746a4aa0 from file:///E:/photon/Photon-OnPremise-Server-SDK_v4-0-29-11263/deploy/MyGameServer/bin/ExitGamesLibs.DLL
+2019-12-16 16:51:43,344 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Starting: name = 'MyGame1', assemblyName = 'MyGameServer', typeName = 'MyGameServer.MyGameServer'
+2019-12-16 16:51:43,360 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - PhotonRunning: ApplicationName = 'MyGame1', DomainId='2' -- calling Application.Setup
+2019-12-16 16:51:43,368 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - PhotonRunning: ApplicationName = 'DefaultDomain', DomainId='1'
+2019-12-16 16:52:30,504 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - RequestStop: ApplicationName = 'MyGame1', DomainId='2' -- calling Application.OnStopRequested()
+2019-12-16 16:52:30,504 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - RequestStop: ApplicationName = 'DefaultDomain', DomainId='1'
+2019-12-16 16:52:30,505 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Stop: ApplicationName = 'MyGame1', DomainId='2' -- calling Application.TearDown()
+2019-12-16 16:52:42,966 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Initialize: ApplicationName = 'DefaultDomain', DomainID = '1'
+2019-12-16 16:52:42,977 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AppDomains with unhandled exceptions are usually not unloaded and restarted.
+2019-12-16 16:52:42,978 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Getting license information:
+2019-12-16 16:52:43,258 [ 1] INFO  PhotonHostRuntime.PhotonLicensing - LICENSE: Type:Standard; Plan:Free; Expiration: never; floating license: yes; max connections: 100; valid IPs: any; status:Licensed
+2019-12-16 16:52:44,650 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - CreateAppDomain: name = 'MyGame1' , assemblyName = 'MyGameServer'
+2019-12-16 16:52:44,652 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   ApplicationBase = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy'
+2019-12-16 16:52:44,652 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   PrivateBinPath = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer\bin;bin_Win64;Shared;'
+2019-12-16 16:52:44,652 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   ConfigurationFile = ''
+2019-12-16 16:52:44,652 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   CachePath = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer\bin\Cache'
+2019-12-16 16:52:44,691 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   ApplicationPath = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer'
+2019-12-16 16:52:44,691 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   BinaryPath = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer\bin'
+2019-12-16 16:52:44,691 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   ApplicationRootPath = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy'
+2019-12-16 16:52:44,691 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   UnmanagedLogPath = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\bin_Win64\log'
+2019-12-16 16:52:44,696 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: MyGameServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null from file:///E:/photon/Photon-OnPremise-Server-SDK_v4-0-29-11263/deploy/MyGameServer/bin/MyGameServer.DLL
+2019-12-16 16:52:44,697 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Photon SDK:4.0.28.11245
+2019-12-16 16:52:44,702 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: Photon.SocketServer, Version=4.0.28.11245, Culture=neutral, PublicKeyToken=48c2fa3b6988090e from file:///E:/photon/Photon-OnPremise-Server-SDK_v4-0-29-11263/deploy/MyGameServer/bin/Photon.SocketServer.DLL
+2019-12-16 16:52:44,706 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: ExitGamesLibs, Version=1.0.4.0, Culture=neutral, PublicKeyToken=eac0edd9746a4aa0 from file:///E:/photon/Photon-OnPremise-Server-SDK_v4-0-29-11263/deploy/MyGameServer/bin/ExitGamesLibs.DLL
+2019-12-16 16:52:44,709 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Starting: name = 'MyGame1', assemblyName = 'MyGameServer', typeName = 'MyGameServer.MyGameServer'
+2019-12-16 16:52:44,717 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - PhotonRunning: ApplicationName = 'MyGame1', DomainId='2' -- calling Application.Setup
+2019-12-16 16:52:44,724 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - PhotonRunning: ApplicationName = 'DefaultDomain', DomainId='1'
+2019-12-16 16:54:14,392 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - RequestStop: ApplicationName = 'MyGame1', DomainId='2' -- calling Application.OnStopRequested()
+2019-12-16 16:54:14,393 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - RequestStop: ApplicationName = 'DefaultDomain', DomainId='1'
+2019-12-16 16:54:14,394 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Stop: ApplicationName = 'MyGame1', DomainId='2' -- calling Application.TearDown()
+2019-12-16 16:58:06,744 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Initialize: ApplicationName = 'DefaultDomain', DomainID = '1'
+2019-12-16 16:58:06,754 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AppDomains with unhandled exceptions are usually not unloaded and restarted.
+2019-12-16 16:58:06,755 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Getting license information:
+2019-12-16 16:58:07,032 [ 1] INFO  PhotonHostRuntime.PhotonLicensing - LICENSE: Type:Standard; Plan:Free; Expiration: never; floating license: yes; max connections: 100; valid IPs: any; status:Licensed
+2019-12-16 16:58:08,220 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - CreateAppDomain: name = 'MyGame1' , assemblyName = 'MyGameServer'
+2019-12-16 16:58:08,221 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   ApplicationBase = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy'
+2019-12-16 16:58:08,221 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   PrivateBinPath = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer\bin;bin_Win64;Shared;'
+2019-12-16 16:58:08,221 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   ConfigurationFile = ''
+2019-12-16 16:58:08,221 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   CachePath = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer\bin\Cache'
+2019-12-16 16:58:08,253 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   ApplicationPath = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer'
+2019-12-16 16:58:08,253 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   BinaryPath = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer\bin'
+2019-12-16 16:58:08,253 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   ApplicationRootPath = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy'
+2019-12-16 16:58:08,253 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   UnmanagedLogPath = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\bin_Win64\log'
+2019-12-16 16:58:08,258 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: MyGameServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null from file:///E:/photon/Photon-OnPremise-Server-SDK_v4-0-29-11263/deploy/MyGameServer/bin/MyGameServer.DLL
+2019-12-16 16:58:08,258 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Photon SDK:4.0.28.11245
+2019-12-16 16:58:08,264 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: Photon.SocketServer, Version=4.0.28.11245, Culture=neutral, PublicKeyToken=48c2fa3b6988090e from file:///E:/photon/Photon-OnPremise-Server-SDK_v4-0-29-11263/deploy/MyGameServer/bin/Photon.SocketServer.DLL
+2019-12-16 16:58:08,268 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: ExitGamesLibs, Version=1.0.4.0, Culture=neutral, PublicKeyToken=eac0edd9746a4aa0 from file:///E:/photon/Photon-OnPremise-Server-SDK_v4-0-29-11263/deploy/MyGameServer/bin/ExitGamesLibs.DLL
+2019-12-16 16:58:08,271 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Starting: name = 'MyGame1', assemblyName = 'MyGameServer', typeName = 'MyGameServer.MyGameServer'
+2019-12-16 16:58:08,280 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - PhotonRunning: ApplicationName = 'MyGame1', DomainId='2' -- calling Application.Setup
+2019-12-16 16:58:08,286 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - PhotonRunning: ApplicationName = 'DefaultDomain', DomainId='1'
+2019-12-16 16:58:15,401 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - RequestStop: ApplicationName = 'MyGame1', DomainId='2' -- calling Application.OnStopRequested()
+2019-12-16 16:58:15,401 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - RequestStop: ApplicationName = 'DefaultDomain', DomainId='1'
+2019-12-16 16:58:15,403 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Stop: ApplicationName = 'MyGame1', DomainId='2' -- calling Application.TearDown()
+2019-12-16 17:31:06,323 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Initialize: ApplicationName = 'DefaultDomain', DomainID = '1'
+2019-12-16 17:31:06,334 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AppDomains with unhandled exceptions are usually not unloaded and restarted.
+2019-12-16 17:31:06,335 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Getting license information:
+2019-12-16 17:31:06,613 [ 1] INFO  PhotonHostRuntime.PhotonLicensing - LICENSE: Type:Standard; Plan:Free; Expiration: never; floating license: yes; max connections: 100; valid IPs: any; status:Licensed
+2019-12-16 17:31:09,086 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - CreateAppDomain: name = 'MyGame1' , assemblyName = 'MyGameServer'
+2019-12-16 17:31:09,087 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   ApplicationBase = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy'
+2019-12-16 17:31:09,087 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   PrivateBinPath = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer\bin;bin_Win64;Shared;'
+2019-12-16 17:31:09,087 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   ConfigurationFile = ''
+2019-12-16 17:31:09,087 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   CachePath = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer\bin\Cache'
+2019-12-16 17:31:09,123 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   ApplicationPath = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer'
+2019-12-16 17:31:09,123 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   BinaryPath = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer\bin'
+2019-12-16 17:31:09,123 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   ApplicationRootPath = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy'
+2019-12-16 17:31:09,124 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   UnmanagedLogPath = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\bin_Win64\log'
+2019-12-16 17:31:09,130 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: MyGameServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null from file:///E:/photon/Photon-OnPremise-Server-SDK_v4-0-29-11263/deploy/MyGameServer/bin/MyGameServer.DLL
+2019-12-16 17:31:09,130 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Photon SDK:4.0.28.11245
+2019-12-16 17:31:09,136 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: Photon.SocketServer, Version=4.0.28.11245, Culture=neutral, PublicKeyToken=48c2fa3b6988090e from file:///E:/photon/Photon-OnPremise-Server-SDK_v4-0-29-11263/deploy/MyGameServer/bin/Photon.SocketServer.DLL
+2019-12-16 17:31:09,140 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: ExitGamesLibs, Version=1.0.4.0, Culture=neutral, PublicKeyToken=eac0edd9746a4aa0 from file:///E:/photon/Photon-OnPremise-Server-SDK_v4-0-29-11263/deploy/MyGameServer/bin/ExitGamesLibs.DLL
+2019-12-16 17:31:09,143 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Starting: name = 'MyGame1', assemblyName = 'MyGameServer', typeName = 'MyGameServer.MyGameServer'
+2019-12-16 17:31:09,152 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - PhotonRunning: ApplicationName = 'MyGame1', DomainId='2' -- calling Application.Setup
+2019-12-16 17:31:09,156 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: ExitGames.Logging.Log4Net, Version=1.0.4.0, Culture=neutral, PublicKeyToken=eac0edd9746a4aa0 from file:///E:/photon/Photon-OnPremise-Server-SDK_v4-0-29-11263/deploy/MyGameServer/bin/ExitGames.Logging.Log4Net.DLL
+2019-12-16 17:31:09,225 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - PhotonRunning: ApplicationName = 'DefaultDomain', DomainId='1'
+2019-12-16 17:31:36,761 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - RequestStop: ApplicationName = 'MyGame1', DomainId='2' -- calling Application.OnStopRequested()
+2019-12-16 17:31:36,761 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - RequestStop: ApplicationName = 'DefaultDomain', DomainId='1'
+2019-12-16 17:31:36,762 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Stop: ApplicationName = 'MyGame1', DomainId='2' -- calling Application.TearDown()
+2019-12-16 17:37:58,857 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Initialize: ApplicationName = 'DefaultDomain', DomainID = '1'
+2019-12-16 17:37:58,868 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AppDomains with unhandled exceptions are usually not unloaded and restarted.
+2019-12-16 17:37:58,869 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Getting license information:
+2019-12-16 17:37:59,148 [ 1] INFO  PhotonHostRuntime.PhotonLicensing - LICENSE: Type:Standard; Plan:Free; Expiration: never; floating license: yes; max connections: 100; valid IPs: any; status:Licensed
+2019-12-16 17:38:00,453 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - CreateAppDomain: name = 'MyGame1' , assemblyName = 'MyGameServer'
+2019-12-16 17:38:00,453 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   ApplicationBase = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy'
+2019-12-16 17:38:00,453 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   PrivateBinPath = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer\bin;bin_Win64;Shared;'
+2019-12-16 17:38:00,454 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   ConfigurationFile = ''
+2019-12-16 17:38:00,454 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   CachePath = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer\bin\Cache'
+2019-12-16 17:38:00,487 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   ApplicationPath = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer'
+2019-12-16 17:38:00,487 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   BinaryPath = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer\bin'
+2019-12-16 17:38:00,488 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   ApplicationRootPath = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy'
+2019-12-16 17:38:00,488 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   UnmanagedLogPath = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\bin_Win64\log'
+2019-12-16 17:38:00,494 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: MyGameServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null from file:///E:/photon/Photon-OnPremise-Server-SDK_v4-0-29-11263/deploy/MyGameServer/bin/MyGameServer.DLL
+2019-12-16 17:38:00,494 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Photon SDK:4.0.28.11245
+2019-12-16 17:38:00,500 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: Photon.SocketServer, Version=4.0.28.11245, Culture=neutral, PublicKeyToken=48c2fa3b6988090e from file:///E:/photon/Photon-OnPremise-Server-SDK_v4-0-29-11263/deploy/MyGameServer/bin/Photon.SocketServer.DLL
+2019-12-16 17:38:00,504 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: ExitGamesLibs, Version=1.0.4.0, Culture=neutral, PublicKeyToken=eac0edd9746a4aa0 from file:///E:/photon/Photon-OnPremise-Server-SDK_v4-0-29-11263/deploy/MyGameServer/bin/ExitGamesLibs.DLL
+2019-12-16 17:38:00,507 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Starting: name = 'MyGame1', assemblyName = 'MyGameServer', typeName = 'MyGameServer.MyGameServer'
+2019-12-16 17:38:00,515 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - PhotonRunning: ApplicationName = 'MyGame1', DomainId='2' -- calling Application.Setup
+2019-12-16 17:38:00,519 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: ExitGames.Logging.Log4Net, Version=1.0.4.0, Culture=neutral, PublicKeyToken=eac0edd9746a4aa0 from file:///E:/photon/Photon-OnPremise-Server-SDK_v4-0-29-11263/deploy/MyGameServer/bin/ExitGames.Logging.Log4Net.DLL
+2019-12-16 17:38:00,587 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - PhotonRunning: ApplicationName = 'DefaultDomain', DomainId='1'
+2019-12-16 17:39:04,466 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - RequestStop: ApplicationName = 'MyGame1', DomainId='2' -- calling Application.OnStopRequested()
+2019-12-16 17:39:04,467 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - RequestStop: ApplicationName = 'DefaultDomain', DomainId='1'
+2019-12-16 17:39:04,468 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Stop: ApplicationName = 'MyGame1', DomainId='2' -- calling Application.TearDown()
+2019-12-16 18:23:18,024 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Initialize: ApplicationName = 'DefaultDomain', DomainID = '1'
+2019-12-16 18:23:18,035 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AppDomains with unhandled exceptions are usually not unloaded and restarted.
+2019-12-16 18:23:18,036 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Getting license information:
+2019-12-16 18:23:18,315 [ 1] INFO  PhotonHostRuntime.PhotonLicensing - LICENSE: Type:Standard; Plan:Free; Expiration: never; floating license: yes; max connections: 100; valid IPs: any; status:Licensed
+2019-12-16 18:23:19,569 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - CreateAppDomain: name = 'MyGame1' , assemblyName = 'MyGameServer'
+2019-12-16 18:23:19,570 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   ApplicationBase = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy'
+2019-12-16 18:23:19,570 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   PrivateBinPath = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer\bin;bin_Win64;Shared;'
+2019-12-16 18:23:19,570 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   ConfigurationFile = ''
+2019-12-16 18:23:19,570 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   CachePath = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer\bin\Cache'
+2019-12-16 18:23:19,616 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   ApplicationPath = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer'
+2019-12-16 18:23:19,616 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   BinaryPath = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer\bin'
+2019-12-16 18:23:19,616 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   ApplicationRootPath = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy'
+2019-12-16 18:23:19,616 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   UnmanagedLogPath = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\bin_Win64\log'
+2019-12-16 18:23:19,621 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: MyGameServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null from file:///E:/photon/Photon-OnPremise-Server-SDK_v4-0-29-11263/deploy/MyGameServer/bin/MyGameServer.DLL
+2019-12-16 18:23:19,622 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Photon SDK:4.0.28.11245
+2019-12-16 18:23:19,627 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: Photon.SocketServer, Version=4.0.28.11245, Culture=neutral, PublicKeyToken=48c2fa3b6988090e from file:///E:/photon/Photon-OnPremise-Server-SDK_v4-0-29-11263/deploy/MyGameServer/bin/Photon.SocketServer.DLL
+2019-12-16 18:23:19,632 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: ExitGamesLibs, Version=1.0.4.0, Culture=neutral, PublicKeyToken=eac0edd9746a4aa0 from file:///E:/photon/Photon-OnPremise-Server-SDK_v4-0-29-11263/deploy/MyGameServer/bin/ExitGamesLibs.DLL
+2019-12-16 18:23:19,635 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Starting: name = 'MyGame1', assemblyName = 'MyGameServer', typeName = 'MyGameServer.MyGameServer'
+2019-12-16 18:23:19,644 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - PhotonRunning: ApplicationName = 'MyGame1', DomainId='2' -- calling Application.Setup
+2019-12-16 18:23:19,647 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: ExitGames.Logging.Log4Net, Version=1.0.4.0, Culture=neutral, PublicKeyToken=eac0edd9746a4aa0 from file:///E:/photon/Photon-OnPremise-Server-SDK_v4-0-29-11263/deploy/MyGameServer/bin/ExitGames.Logging.Log4Net.DLL
+2019-12-16 18:23:19,718 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - PhotonRunning: ApplicationName = 'DefaultDomain', DomainId='1'
+2019-12-16 18:26:41,800 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - RequestStop: ApplicationName = 'MyGame1', DomainId='2' -- calling Application.OnStopRequested()
+2019-12-16 18:26:41,801 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - RequestStop: ApplicationName = 'DefaultDomain', DomainId='1'
+2019-12-16 18:26:41,802 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Stop: ApplicationName = 'MyGame1', DomainId='2' -- calling Application.TearDown()
+2019-12-16 20:03:19,078 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Initialize: ApplicationName = 'DefaultDomain', DomainID = '1'
+2019-12-16 20:03:19,106 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AppDomains with unhandled exceptions are usually not unloaded and restarted.
+2019-12-16 20:03:19,107 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Getting license information:
+2019-12-16 20:03:19,403 [ 1] INFO  PhotonHostRuntime.PhotonLicensing - LICENSE: Type:Standard; Plan:Free; Expiration: never; floating license: yes; max connections: 100; valid IPs: any; status:Licensed
+2019-12-16 20:03:20,707 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - CreateAppDomain: name = 'MyGame1' , assemblyName = 'MyGameServer'
+2019-12-16 20:03:20,707 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   ApplicationBase = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy'
+2019-12-16 20:03:20,707 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   PrivateBinPath = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer\bin;bin_Win64;Shared;'
+2019-12-16 20:03:20,707 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   ConfigurationFile = ''
+2019-12-16 20:03:20,707 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   CachePath = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer\bin\Cache'
+2019-12-16 20:03:20,839 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   ApplicationPath = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer'
+2019-12-16 20:03:20,839 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   BinaryPath = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer\bin'
+2019-12-16 20:03:20,839 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   ApplicationRootPath = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy'
+2019-12-16 20:03:20,840 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   UnmanagedLogPath = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\bin_Win64\log'
+2019-12-16 20:03:20,846 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: MyGameServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null from file:///E:/photon/Photon-OnPremise-Server-SDK_v4-0-29-11263/deploy/MyGameServer/bin/MyGameServer.DLL
+2019-12-16 20:03:20,847 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Photon SDK:4.0.28.11245
+2019-12-16 20:03:20,895 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: Photon.SocketServer, Version=4.0.28.11245, Culture=neutral, PublicKeyToken=48c2fa3b6988090e from file:///E:/photon/Photon-OnPremise-Server-SDK_v4-0-29-11263/deploy/MyGameServer/bin/Photon.SocketServer.DLL
+2019-12-16 20:03:20,949 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: ExitGamesLibs, Version=1.0.4.0, Culture=neutral, PublicKeyToken=eac0edd9746a4aa0 from file:///E:/photon/Photon-OnPremise-Server-SDK_v4-0-29-11263/deploy/MyGameServer/bin/ExitGamesLibs.DLL
+2019-12-16 20:03:20,953 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Starting: name = 'MyGame1', assemblyName = 'MyGameServer', typeName = 'MyGameServer.MyGameServer'
+2019-12-16 20:03:20,962 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - PhotonRunning: ApplicationName = 'MyGame1', DomainId='2' -- calling Application.Setup
+2019-12-16 20:03:20,985 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: ExitGames.Logging.Log4Net, Version=1.0.4.0, Culture=neutral, PublicKeyToken=eac0edd9746a4aa0 from file:///E:/photon/Photon-OnPremise-Server-SDK_v4-0-29-11263/deploy/MyGameServer/bin/ExitGames.Logging.Log4Net.DLL
+2019-12-16 20:03:21,079 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - PhotonRunning: ApplicationName = 'DefaultDomain', DomainId='1'
+2019-12-16 20:06:20,904 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - RequestStop: ApplicationName = 'MyGame1', DomainId='2' -- calling Application.OnStopRequested()
+2019-12-16 20:06:20,904 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - RequestStop: ApplicationName = 'DefaultDomain', DomainId='1'
+2019-12-16 20:06:20,943 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Stop: ApplicationName = 'MyGame1', DomainId='2' -- calling Application.TearDown()
+2019-12-16 20:11:20,174 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Initialize: ApplicationName = 'DefaultDomain', DomainID = '1'
+2019-12-16 20:11:20,186 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AppDomains with unhandled exceptions are usually not unloaded and restarted.
+2019-12-16 20:11:20,187 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Getting license information:
+2019-12-16 20:11:20,473 [ 1] INFO  PhotonHostRuntime.PhotonLicensing - LICENSE: Type:Standard; Plan:Free; Expiration: never; floating license: yes; max connections: 100; valid IPs: any; status:Licensed
+2019-12-16 20:11:21,670 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - CreateAppDomain: name = 'MyGame1' , assemblyName = 'MyGameServer'
+2019-12-16 20:11:21,671 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   ApplicationBase = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy'
+2019-12-16 20:11:21,671 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   PrivateBinPath = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer\bin;bin_Win64;Shared;'
+2019-12-16 20:11:21,671 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   ConfigurationFile = ''
+2019-12-16 20:11:21,671 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   CachePath = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer\bin\Cache'
+2019-12-16 20:11:21,715 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   ApplicationPath = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer'
+2019-12-16 20:11:21,715 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   BinaryPath = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer\bin'
+2019-12-16 20:11:21,715 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   ApplicationRootPath = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy'
+2019-12-16 20:11:21,715 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   UnmanagedLogPath = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\bin_Win64\log'
+2019-12-16 20:11:21,721 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: MyGameServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null from file:///E:/photon/Photon-OnPremise-Server-SDK_v4-0-29-11263/deploy/MyGameServer/bin/MyGameServer.DLL
+2019-12-16 20:11:21,721 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Photon SDK:4.0.28.11245
+2019-12-16 20:11:21,726 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: Photon.SocketServer, Version=4.0.28.11245, Culture=neutral, PublicKeyToken=48c2fa3b6988090e from file:///E:/photon/Photon-OnPremise-Server-SDK_v4-0-29-11263/deploy/MyGameServer/bin/Photon.SocketServer.DLL
+2019-12-16 20:11:21,730 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: ExitGamesLibs, Version=1.0.4.0, Culture=neutral, PublicKeyToken=eac0edd9746a4aa0 from file:///E:/photon/Photon-OnPremise-Server-SDK_v4-0-29-11263/deploy/MyGameServer/bin/ExitGamesLibs.DLL
+2019-12-16 20:11:21,733 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Starting: name = 'MyGame1', assemblyName = 'MyGameServer', typeName = 'MyGameServer.MyGameServer'
+2019-12-16 20:11:21,742 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - PhotonRunning: ApplicationName = 'MyGame1', DomainId='2' -- calling Application.Setup
+2019-12-16 20:11:21,746 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: ExitGames.Logging.Log4Net, Version=1.0.4.0, Culture=neutral, PublicKeyToken=eac0edd9746a4aa0 from file:///E:/photon/Photon-OnPremise-Server-SDK_v4-0-29-11263/deploy/MyGameServer/bin/ExitGames.Logging.Log4Net.DLL
+2019-12-16 20:11:21,817 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - PhotonRunning: ApplicationName = 'DefaultDomain', DomainId='1'
+2019-12-16 20:17:03,998 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - RequestStop: ApplicationName = 'DefaultDomain', DomainId='1'
+2019-12-16 20:17:25,574 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Initialize: ApplicationName = 'DefaultDomain', DomainID = '1'
+2019-12-16 20:17:25,586 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AppDomains with unhandled exceptions are usually not unloaded and restarted.
+2019-12-16 20:17:25,587 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Getting license information:
+2019-12-16 20:17:25,875 [ 1] INFO  PhotonHostRuntime.PhotonLicensing - LICENSE: Type:Standard; Plan:Free; Expiration: never; floating license: yes; max connections: 100; valid IPs: any; status:Licensed
+2019-12-16 20:17:27,113 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - CreateAppDomain: name = 'MyGame1' , assemblyName = 'MyGameServer'
+2019-12-16 20:17:27,114 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   ApplicationBase = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy'
+2019-12-16 20:17:27,114 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   PrivateBinPath = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer\bin;bin_Win64;Shared;'
+2019-12-16 20:17:27,114 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   ConfigurationFile = ''
+2019-12-16 20:17:27,114 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   CachePath = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer\bin\Cache'
+2019-12-16 20:17:27,153 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   ApplicationPath = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer'
+2019-12-16 20:17:27,153 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   BinaryPath = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer\bin'
+2019-12-16 20:17:27,154 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   ApplicationRootPath = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy'
+2019-12-16 20:17:27,154 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   UnmanagedLogPath = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\bin_Win64\log'
+2019-12-16 20:17:27,160 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: MyGameServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null from file:///E:/photon/Photon-OnPremise-Server-SDK_v4-0-29-11263/deploy/MyGameServer/bin/MyGameServer.DLL
+2019-12-16 20:17:27,160 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Photon SDK:4.0.28.11245
+2019-12-16 20:17:27,165 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: Photon.SocketServer, Version=4.0.28.11245, Culture=neutral, PublicKeyToken=48c2fa3b6988090e from file:///E:/photon/Photon-OnPremise-Server-SDK_v4-0-29-11263/deploy/MyGameServer/bin/Photon.SocketServer.DLL
+2019-12-16 20:17:27,170 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: ExitGamesLibs, Version=1.0.4.0, Culture=neutral, PublicKeyToken=eac0edd9746a4aa0 from file:///E:/photon/Photon-OnPremise-Server-SDK_v4-0-29-11263/deploy/MyGameServer/bin/ExitGamesLibs.DLL
+2019-12-16 20:17:27,173 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Starting: name = 'MyGame1', assemblyName = 'MyGameServer', typeName = 'MyGameServer.MyGameServer'
+2019-12-16 20:17:27,181 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - PhotonRunning: ApplicationName = 'MyGame1', DomainId='2' -- calling Application.Setup
+2019-12-16 20:17:27,185 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: ExitGames.Logging.Log4Net, Version=1.0.4.0, Culture=neutral, PublicKeyToken=eac0edd9746a4aa0 from file:///E:/photon/Photon-OnPremise-Server-SDK_v4-0-29-11263/deploy/MyGameServer/bin/ExitGames.Logging.Log4Net.DLL
+2019-12-16 20:17:27,259 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - PhotonRunning: ApplicationName = 'DefaultDomain', DomainId='1'
+2019-12-16 20:17:54,050 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - RequestStop: ApplicationName = 'MyGame1', DomainId='2' -- calling Application.OnStopRequested()
+2019-12-16 20:17:54,051 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - RequestStop: ApplicationName = 'DefaultDomain', DomainId='1'
+2019-12-16 20:17:54,052 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Stop: ApplicationName = 'MyGame1', DomainId='2' -- calling Application.TearDown()
+2019-12-16 20:45:08,629 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Initialize: ApplicationName = 'DefaultDomain', DomainID = '1'
+2019-12-16 20:45:08,641 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AppDomains with unhandled exceptions are usually not unloaded and restarted.
+2019-12-16 20:45:08,642 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Getting license information:
+2019-12-16 20:45:08,938 [ 1] INFO  PhotonHostRuntime.PhotonLicensing - LICENSE: Type:Standard; Plan:Free; Expiration: never; floating license: yes; max connections: 100; valid IPs: any; status:Licensed
+2019-12-16 20:45:12,588 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - CreateAppDomain: name = 'MyGame1' , assemblyName = 'MyGameServer'
+2019-12-16 20:45:12,589 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   ApplicationBase = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy'
+2019-12-16 20:45:12,589 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   PrivateBinPath = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer\bin;bin_Win64;Shared;'
+2019-12-16 20:45:12,589 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   ConfigurationFile = ''
+2019-12-16 20:45:12,590 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   CachePath = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer\bin\Cache'
+2019-12-16 20:45:12,633 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   ApplicationPath = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer'
+2019-12-16 20:45:12,633 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   BinaryPath = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer\bin'
+2019-12-16 20:45:12,633 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   ApplicationRootPath = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy'
+2019-12-16 20:45:12,633 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   UnmanagedLogPath = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\bin_Win64\log'
+2019-12-16 20:45:12,639 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: MyGameServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null from file:///E:/photon/Photon-OnPremise-Server-SDK_v4-0-29-11263/deploy/MyGameServer/bin/MyGameServer.DLL
+2019-12-16 20:45:12,640 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Photon SDK:4.0.28.11245
+2019-12-16 20:45:12,645 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: Photon.SocketServer, Version=4.0.28.11245, Culture=neutral, PublicKeyToken=48c2fa3b6988090e from file:///E:/photon/Photon-OnPremise-Server-SDK_v4-0-29-11263/deploy/MyGameServer/bin/Photon.SocketServer.DLL
+2019-12-16 20:45:12,649 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: ExitGamesLibs, Version=1.0.4.0, Culture=neutral, PublicKeyToken=eac0edd9746a4aa0 from file:///E:/photon/Photon-OnPremise-Server-SDK_v4-0-29-11263/deploy/MyGameServer/bin/ExitGamesLibs.DLL
+2019-12-16 20:45:12,652 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Starting: name = 'MyGame1', assemblyName = 'MyGameServer', typeName = 'MyGameServer.MyGameServer'
+2019-12-16 20:45:12,661 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - PhotonRunning: ApplicationName = 'MyGame1', DomainId='2' -- calling Application.Setup
+2019-12-16 20:45:12,665 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: ExitGames.Logging.Log4Net, Version=1.0.4.0, Culture=neutral, PublicKeyToken=eac0edd9746a4aa0 from file:///E:/photon/Photon-OnPremise-Server-SDK_v4-0-29-11263/deploy/MyGameServer/bin/ExitGames.Logging.Log4Net.DLL
+2019-12-16 20:45:12,740 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - PhotonRunning: ApplicationName = 'DefaultDomain', DomainId='1'
+2019-12-16 20:46:46,865 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - RequestStop: ApplicationName = 'MyGame1', DomainId='2' -- calling Application.OnStopRequested()
+2019-12-16 20:46:46,866 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - RequestStop: ApplicationName = 'DefaultDomain', DomainId='1'
+2019-12-16 20:46:46,867 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Stop: ApplicationName = 'MyGame1', DomainId='2' -- calling Application.TearDown()
+2019-12-16 21:01:49,994 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Initialize: ApplicationName = 'DefaultDomain', DomainID = '1'
+2019-12-16 21:01:50,006 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AppDomains with unhandled exceptions are usually not unloaded and restarted.
+2019-12-16 21:01:50,007 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Getting license information:
+2019-12-16 21:01:50,296 [ 1] INFO  PhotonHostRuntime.PhotonLicensing - LICENSE: Type:Standard; Plan:Free; Expiration: never; floating license: yes; max connections: 100; valid IPs: any; status:Licensed
+2019-12-16 21:01:51,490 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - CreateAppDomain: name = 'MyGame1' , assemblyName = 'MyGameServer'
+2019-12-16 21:01:51,490 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   ApplicationBase = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy'
+2019-12-16 21:01:51,490 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   PrivateBinPath = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer\bin;bin_Win64;Shared;'
+2019-12-16 21:01:51,491 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   ConfigurationFile = ''
+2019-12-16 21:01:51,491 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   CachePath = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer\bin\Cache'
+2019-12-16 21:01:51,526 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   ApplicationPath = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer'
+2019-12-16 21:01:51,526 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   BinaryPath = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer\bin'
+2019-12-16 21:01:51,526 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   ApplicationRootPath = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy'
+2019-12-16 21:01:51,527 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   UnmanagedLogPath = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\bin_Win64\log'
+2019-12-16 21:01:51,533 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: MyGameServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null from file:///E:/photon/Photon-OnPremise-Server-SDK_v4-0-29-11263/deploy/MyGameServer/bin/MyGameServer.DLL
+2019-12-16 21:01:51,533 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Photon SDK:4.0.28.11245
+2019-12-16 21:01:51,539 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: Photon.SocketServer, Version=4.0.28.11245, Culture=neutral, PublicKeyToken=48c2fa3b6988090e from file:///E:/photon/Photon-OnPremise-Server-SDK_v4-0-29-11263/deploy/MyGameServer/bin/Photon.SocketServer.DLL
+2019-12-16 21:01:51,544 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: ExitGamesLibs, Version=1.0.4.0, Culture=neutral, PublicKeyToken=eac0edd9746a4aa0 from file:///E:/photon/Photon-OnPremise-Server-SDK_v4-0-29-11263/deploy/MyGameServer/bin/ExitGamesLibs.DLL
+2019-12-16 21:01:51,547 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Starting: name = 'MyGame1', assemblyName = 'MyGameServer', typeName = 'MyGameServer.MyGameServer'
+2019-12-16 21:01:51,555 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - PhotonRunning: ApplicationName = 'MyGame1', DomainId='2' -- calling Application.Setup
+2019-12-16 21:01:51,560 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: ExitGames.Logging.Log4Net, Version=1.0.4.0, Culture=neutral, PublicKeyToken=eac0edd9746a4aa0 from file:///E:/photon/Photon-OnPremise-Server-SDK_v4-0-29-11263/deploy/MyGameServer/bin/ExitGames.Logging.Log4Net.DLL
+2019-12-16 21:01:51,634 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - PhotonRunning: ApplicationName = 'DefaultDomain', DomainId='1'
+2019-12-16 21:02:28,860 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - RequestStop: ApplicationName = 'MyGame1', DomainId='2' -- calling Application.OnStopRequested()
+2019-12-16 21:02:28,861 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - RequestStop: ApplicationName = 'DefaultDomain', DomainId='1'
+2019-12-16 21:02:28,862 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Stop: ApplicationName = 'MyGame1', DomainId='2' -- calling Application.TearDown()
+2019-12-16 21:11:47,371 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Initialize: ApplicationName = 'DefaultDomain', DomainID = '1'
+2019-12-16 21:11:47,383 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AppDomains with unhandled exceptions are usually not unloaded and restarted.
+2019-12-16 21:11:47,384 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Getting license information:
+2019-12-16 21:11:47,676 [ 1] INFO  PhotonHostRuntime.PhotonLicensing - LICENSE: Type:Standard; Plan:Free; Expiration: never; floating license: yes; max connections: 100; valid IPs: any; status:Licensed
+2019-12-16 21:11:48,869 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - CreateAppDomain: name = 'MyGame1' , assemblyName = 'MyGameServer'
+2019-12-16 21:11:48,870 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   ApplicationBase = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy'
+2019-12-16 21:11:48,870 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   PrivateBinPath = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer\bin;bin_Win64;Shared;'
+2019-12-16 21:11:48,870 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   ConfigurationFile = ''
+2019-12-16 21:11:48,870 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   CachePath = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer\bin\Cache'
+2019-12-16 21:11:48,945 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   ApplicationPath = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer'
+2019-12-16 21:11:48,945 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   BinaryPath = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer\bin'
+2019-12-16 21:11:48,945 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   ApplicationRootPath = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy'
+2019-12-16 21:11:48,945 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   UnmanagedLogPath = 'E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\bin_Win64\log'
+2019-12-16 21:11:48,951 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: MyGameServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null from file:///E:/photon/Photon-OnPremise-Server-SDK_v4-0-29-11263/deploy/MyGameServer/bin/MyGameServer.DLL
+2019-12-16 21:11:48,952 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Photon SDK:4.0.28.11245
+2019-12-16 21:11:48,958 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: Photon.SocketServer, Version=4.0.28.11245, Culture=neutral, PublicKeyToken=48c2fa3b6988090e from file:///E:/photon/Photon-OnPremise-Server-SDK_v4-0-29-11263/deploy/MyGameServer/bin/Photon.SocketServer.DLL
+2019-12-16 21:11:48,962 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: ExitGamesLibs, Version=1.0.4.0, Culture=neutral, PublicKeyToken=eac0edd9746a4aa0 from file:///E:/photon/Photon-OnPremise-Server-SDK_v4-0-29-11263/deploy/MyGameServer/bin/ExitGamesLibs.DLL
+2019-12-16 21:11:48,965 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Starting: name = 'MyGame1', assemblyName = 'MyGameServer', typeName = 'MyGameServer.MyGameServer'
+2019-12-16 21:11:48,974 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - PhotonRunning: ApplicationName = 'MyGame1', DomainId='2' -- calling Application.Setup
+2019-12-16 21:11:48,978 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: ExitGames.Logging.Log4Net, Version=1.0.4.0, Culture=neutral, PublicKeyToken=eac0edd9746a4aa0 from file:///E:/photon/Photon-OnPremise-Server-SDK_v4-0-29-11263/deploy/MyGameServer/bin/ExitGames.Logging.Log4Net.DLL
+2019-12-16 21:11:49,052 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - PhotonRunning: ApplicationName = 'DefaultDomain', DomainId='1'
+2019-12-16 21:12:16,565 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - RequestStop: ApplicationName = 'MyGame1', DomainId='2' -- calling Application.OnStopRequested()
+2019-12-16 21:12:16,566 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - RequestStop: ApplicationName = 'DefaultDomain', DomainId='1'
+2019-12-16 21:12:16,567 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Stop: ApplicationName = 'MyGame1', DomainId='2' -- calling Application.TearDown()
+2019-12-17 14:40:48,879 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Initialize: ApplicationName = 'DefaultDomain', DomainID = '1'
+2019-12-17 14:40:48,913 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AppDomains with unhandled exceptions are usually not unloaded and restarted.
+2019-12-17 14:40:48,915 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Getting license information:
+2019-12-17 14:40:49,358 [ 1] INFO  PhotonHostRuntime.PhotonLicensing - LICENSE: Type:Standard; Plan:Free; Expiration: never; floating license: yes; max connections: 100; valid IPs: any; status:Licensed
+2019-12-17 14:40:50,686 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - CreateAppDomain: name = 'MyGame1' , assemblyName = 'MyGameServer'
+2019-12-17 14:40:50,686 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   ApplicationBase = 'E:\Unity-pj\PhotonServerDemo\Server\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy'
+2019-12-17 14:40:50,686 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   PrivateBinPath = 'E:\Unity-pj\PhotonServerDemo\Server\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer\bin;bin_Win64;Shared;'
+2019-12-17 14:40:50,686 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   ConfigurationFile = ''
+2019-12-17 14:40:50,686 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   CachePath = 'E:\Unity-pj\PhotonServerDemo\Server\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer\bin\Cache'
+2019-12-17 14:40:50,776 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   ApplicationPath = 'E:\Unity-pj\PhotonServerDemo\Server\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer'
+2019-12-17 14:40:50,776 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   BinaryPath = 'E:\Unity-pj\PhotonServerDemo\Server\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer\bin'
+2019-12-17 14:40:50,776 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   ApplicationRootPath = 'E:\Unity-pj\PhotonServerDemo\Server\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy'
+2019-12-17 14:40:50,776 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   UnmanagedLogPath = 'E:\Unity-pj\PhotonServerDemo\Server\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\bin_Win64\log'
+2019-12-17 14:40:50,816 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: MyGameServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null from file:///E:/Unity-pj/PhotonServerDemo/Server/Photon-OnPremise-Server-SDK_v4-0-29-11263/deploy/MyGameServer/bin/MyGameServer.DLL
+2019-12-17 14:40:50,826 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Photon SDK:4.0.28.11245
+2019-12-17 14:40:50,856 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: Photon.SocketServer, Version=4.0.28.11245, Culture=neutral, PublicKeyToken=48c2fa3b6988090e from file:///E:/Unity-pj/PhotonServerDemo/Server/Photon-OnPremise-Server-SDK_v4-0-29-11263/deploy/MyGameServer/bin/Photon.SocketServer.DLL
+2019-12-17 14:40:50,886 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: ExitGamesLibs, Version=1.0.4.0, Culture=neutral, PublicKeyToken=eac0edd9746a4aa0 from file:///E:/Unity-pj/PhotonServerDemo/Server/Photon-OnPremise-Server-SDK_v4-0-29-11263/deploy/MyGameServer/bin/ExitGamesLibs.DLL
+2019-12-17 14:40:50,906 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Starting: name = 'MyGame1', assemblyName = 'MyGameServer', typeName = 'MyGameServer.MyGameServer'
+2019-12-17 14:40:51,126 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - PhotonRunning: ApplicationName = 'MyGame1', DomainId='2' -- calling Application.Setup
+2019-12-17 14:40:51,136 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: ExitGames.Logging.Log4Net, Version=1.0.4.0, Culture=neutral, PublicKeyToken=eac0edd9746a4aa0 from file:///E:/Unity-pj/PhotonServerDemo/Server/Photon-OnPremise-Server-SDK_v4-0-29-11263/deploy/MyGameServer/bin/ExitGames.Logging.Log4Net.DLL
+2019-12-17 14:40:51,226 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - PhotonRunning: ApplicationName = 'DefaultDomain', DomainId='1'
+2019-12-17 14:41:58,026 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - RequestStop: ApplicationName = 'MyGame1', DomainId='2' -- calling Application.OnStopRequested()
+2019-12-17 14:41:58,026 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - RequestStop: ApplicationName = 'DefaultDomain', DomainId='1'
+2019-12-17 14:41:58,026 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Stop: ApplicationName = 'MyGame1', DomainId='2' -- calling Application.TearDown()
+2019-12-17 14:58:03,201 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Initialize: ApplicationName = 'DefaultDomain', DomainID = '1'
+2019-12-17 14:58:03,213 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AppDomains with unhandled exceptions are usually not unloaded and restarted.
+2019-12-17 14:58:03,214 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Getting license information:
+2019-12-17 14:58:03,505 [ 1] INFO  PhotonHostRuntime.PhotonLicensing - LICENSE: Type:Standard; Plan:Free; Expiration: never; floating license: yes; max connections: 100; valid IPs: any; status:Licensed
+2019-12-17 14:58:04,875 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - CreateAppDomain: name = 'MyGame1' , assemblyName = 'MyGameServer'
+2019-12-17 14:58:04,876 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   ApplicationBase = 'E:\Unity-pj\PhotonServerDemo\Server\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy'
+2019-12-17 14:58:04,876 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   PrivateBinPath = 'E:\Unity-pj\PhotonServerDemo\Server\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer\bin;bin_Win64;Shared;'
+2019-12-17 14:58:04,876 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   ConfigurationFile = ''
+2019-12-17 14:58:04,876 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   CachePath = 'E:\Unity-pj\PhotonServerDemo\Server\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer\bin\Cache'
+2019-12-17 14:58:04,932 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   ApplicationPath = 'E:\Unity-pj\PhotonServerDemo\Server\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer'
+2019-12-17 14:58:04,932 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   BinaryPath = 'E:\Unity-pj\PhotonServerDemo\Server\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer\bin'
+2019-12-17 14:58:04,932 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   ApplicationRootPath = 'E:\Unity-pj\PhotonServerDemo\Server\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy'
+2019-12-17 14:58:04,932 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   UnmanagedLogPath = 'E:\Unity-pj\PhotonServerDemo\Server\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\bin_Win64\log'
+2019-12-17 14:58:04,939 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: MyGameServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null from file:///E:/Unity-pj/PhotonServerDemo/Server/Photon-OnPremise-Server-SDK_v4-0-29-11263/deploy/MyGameServer/bin/MyGameServer.DLL
+2019-12-17 14:58:04,939 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Photon SDK:4.0.28.11245
+2019-12-17 14:58:04,944 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: Photon.SocketServer, Version=4.0.28.11245, Culture=neutral, PublicKeyToken=48c2fa3b6988090e from file:///E:/Unity-pj/PhotonServerDemo/Server/Photon-OnPremise-Server-SDK_v4-0-29-11263/deploy/MyGameServer/bin/Photon.SocketServer.DLL
+2019-12-17 14:58:04,949 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: ExitGamesLibs, Version=1.0.4.0, Culture=neutral, PublicKeyToken=eac0edd9746a4aa0 from file:///E:/Unity-pj/PhotonServerDemo/Server/Photon-OnPremise-Server-SDK_v4-0-29-11263/deploy/MyGameServer/bin/ExitGamesLibs.DLL
+2019-12-17 14:58:04,952 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Starting: name = 'MyGame1', assemblyName = 'MyGameServer', typeName = 'MyGameServer.MyGameServer'
+2019-12-17 14:58:04,961 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - PhotonRunning: ApplicationName = 'MyGame1', DomainId='2' -- calling Application.Setup
+2019-12-17 14:58:04,966 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: ExitGames.Logging.Log4Net, Version=1.0.4.0, Culture=neutral, PublicKeyToken=eac0edd9746a4aa0 from file:///E:/Unity-pj/PhotonServerDemo/Server/Photon-OnPremise-Server-SDK_v4-0-29-11263/deploy/MyGameServer/bin/ExitGames.Logging.Log4Net.DLL
+2019-12-17 14:58:05,040 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - PhotonRunning: ApplicationName = 'DefaultDomain', DomainId='1'
+2019-12-17 15:04:29,141 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - RequestStop: ApplicationName = 'DefaultDomain', DomainId='1'
